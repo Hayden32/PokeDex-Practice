@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EFF7ED5D22EA6E5F00A4D7B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7ED5C22EA6E5F00A4D7B6 /* AppDelegate.m */; };
-		EFF7ED6022EA6E5F00A4D7B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7ED5F22EA6E5F00A4D7B6 /* ViewController.m */; };
 		EFF7ED6322EA6E5F00A4D7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF7ED6122EA6E5F00A4D7B6 /* Main.storyboard */; };
 		EFF7ED6522EA6E6100A4D7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF7ED6422EA6E6100A4D7B6 /* Assets.xcassets */; };
 		EFF7ED6822EA6E6100A4D7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF7ED6622EA6E6100A4D7B6 /* LaunchScreen.storyboard */; };
 		EFF7ED6B22EA6E6100A4D7B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7ED6A22EA6E6100A4D7B6 /* main.m */; };
+		EFF7ED7322EA72E700A4D7B6 /* HHPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF7ED7222EA72E700A4D7B6 /* HHPokemon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFF7ED5822EA6E5F00A4D7B6 /* PokedexPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokedexPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF7ED5B22EA6E5F00A4D7B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFF7ED5C22EA6E5F00A4D7B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EFF7ED5E22EA6E5F00A4D7B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFF7ED5F22EA6E5F00A4D7B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFF7ED6222EA6E5F00A4D7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFF7ED6422EA6E6100A4D7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF7ED6722EA6E6100A4D7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFF7ED6922EA6E6100A4D7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFF7ED6A22EA6E6100A4D7B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFF7ED7122EA72E700A4D7B6 /* HHPokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHPokemon.h; sourceTree = "<group>"; };
+		EFF7ED7222EA72E700A4D7B6 /* HHPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHPokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				EFF7ED5B22EA6E5F00A4D7B6 /* AppDelegate.h */,
 				EFF7ED5C22EA6E5F00A4D7B6 /* AppDelegate.m */,
-				EFF7ED5E22EA6E5F00A4D7B6 /* ViewController.h */,
-				EFF7ED5F22EA6E5F00A4D7B6 /* ViewController.m */,
+				EFF7ED7122EA72E700A4D7B6 /* HHPokemon.h */,
+				EFF7ED7222EA72E700A4D7B6 /* HHPokemon.m */,
 				EFF7ED6122EA6E5F00A4D7B6 /* Main.storyboard */,
 				EFF7ED6422EA6E6100A4D7B6 /* Assets.xcassets */,
 				EFF7ED6622EA6E6100A4D7B6 /* LaunchScreen.storyboard */,
@@ -97,6 +97,7 @@
 		EFF7ED5022EA6E5F00A4D7B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HH;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Hayden Hastings";
 				TargetAttributes = {
@@ -141,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF7ED6022EA6E5F00A4D7B6 /* ViewController.m in Sources */,
 				EFF7ED6B22EA6E6100A4D7B6 /* main.m in Sources */,
 				EFF7ED5D22EA6E5F00A4D7B6 /* AppDelegate.m in Sources */,
+				EFF7ED7322EA72E700A4D7B6 /* HHPokemon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
